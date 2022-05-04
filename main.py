@@ -22,7 +22,7 @@ for i in range(n):
     figury = input().split(' ')
     #map(float, figury)
     temp = pole(*figury)
-    print(temp)
+    #print(temp)
     if temp == 0:
         kontrolka = False
     suma += temp
